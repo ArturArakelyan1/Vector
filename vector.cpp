@@ -83,31 +83,3 @@ T& operator[](int index)
     return m_data[index];
 }
 };
-
-// //     template<typename T>
-// // void print(T const & xs)
-// // {
-// //     std::cout << "[ ";
-// //     for(auto const & x : xs) {
-// //         std::cout << x << ' ';
-// //     }
-// //     std::cout << "]\n";
-// // }
-// int main()
-// {
-//     int size = 3;
-//     Vector<int> numbers(size); 
-//     numbers.PushBack(5);
-//     numbers.PushBack(3);
-//     numbers.PushBack(4);
-//     for (size_t i = 0; i < size; i++)
-//     {
-//         std::cout << numbers[i];
-//     }
-    
-//     numbers.PopBack();
- 
-//     for (size_t i = 0; i < size  ; i++)
-//     {
-//         std::cout << numbers[i];
-//     }}
